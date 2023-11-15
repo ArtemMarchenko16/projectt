@@ -1,0 +1,803 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 70px;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+
+.photoLogo {
+    margin-left: 150px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.positionForTraking {
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+.traking a {
+    margin-left: 30px;
+}
+
+.noneForServices {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForTracking {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForDepartment {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForTariffs {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForPhilately {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForCareer {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.noneForBusiness {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #99a2aa;
+}
+
+.sectionForYellowZone {
+    background-color: #fec524;
+    height: 450px;
+    display: flex;
+}
+
+.sectionForYellowZone h2 {
+    margin-top: 50px;
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 150px;
+}
+
+.secondTitleForBigZone h2 {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 110px;
+    display: flex;
+    left: 0px;
+    position: absolute;
+}
+
+.prizesOnYellowZone p {
+    margin-top: 210px;
+    left: 150px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.positionForInput {
+    margin-top: 300px;
+    position: absolute;
+    display: flex;
+    left: 150px;
+}
+
+.settingsForInput {
+    display: flex;
+    height: 62px;
+    outline: 0;
+    padding: 0px 230px 0px 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    width: 232.881px;
+    border: white;
+    position: absolute;
+}
+
+.button1 {
+    height: 70px;
+    width: 270px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.positionForButton1 {
+    display: flex;
+    margin-top: 415px;
+    left: 150px;
+    position: absolute;
+}
+
+.positionForButton1 svg {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.textForButton1 p {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    height: 70px;
+    width: 270px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.positionForButton2 svg {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.textForButton2 p {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.positionForButton2 {
+    display: flex;
+    margin-top: 415px;
+    left: 450px;
+    position: absolute;
+}
+
+.button3 {
+    height: 70px;
+    width: 270px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.positionForButton3 svg {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.textForButton3 p {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.positionForButton3 {
+    display: flex;
+    margin-top: 415px;
+    left: 750px;
+    position: absolute;
+}
+
+.button4 {
+    height: 70px;
+    width: 270px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.positionForButton4 svg {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.textForButton4 p {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.positionForButton4 {
+    display: flex;
+    margin-top: 415px;
+    left: 1050px;
+    position: absolute;
+}
+
+.styleForBlock1 {
+    background-color: #f8f8f8;
+    height: 800px;
+    display: flex;
+}
+
+.sectionForGreyZoneTitle h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 150px;
+    margin-top: 110px;
+    display: flex;
+}
+
+.secondTitleForGreyZone h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    position: absolute;
+    left: 150px;
+    display: flex;
+    top: 700px;
+}
+
+.paragraphForBlock1 p {
+    position: absolute;
+    margin-top: 260px;
+    display: flex;
+    left: 150px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 25%;
+}
+
+.paragraph2ForBlock1 p {
+    position: absolute;
+    margin-top: 370px;
+    display: flex;
+    left: 150px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 23%;
+}
+
+.block1 h2 {
+    top: 670px;
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 8%;
+}
+
+.block1 p {
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    top: 755px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.block2 h2 {
+    top: 880px;
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 20%;
+}
+
+.block2 p {
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    top: 970px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.block3 h2 {
+    top: 1090px;
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 5%;
+}
+
+.block3 p {
+    display: flex;
+    margin-left: 240px;
+    position: absolute;
+    top: 1185px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.block4 h2 {
+    top: 670px;
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 5%;
+}
+
+.block4 p {
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    top: 755px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.block5 h2 {
+    top: 880px;
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.block5 p {
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    top: 940px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.block6 h2 {
+    top: 1090px;
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 10%;
+}
+
+.block6 p {
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    top: 1185px;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.styleForBlock2 {
+    display: flex;
+    background-color: #042c4b;
+    height: 660px;
+}
+
+.styleForBlock2 h2 {
+    color: #F8F8F8;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 50%;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.styleForBlock2 p {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 23%;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 290px;
+    display: flex;
+}
+
+.settingsForButtonOnBlock2 {
+    border-radius: 10px;
+    background: #FDC13D;
+    width: 295px;
+    height: 80px;
+    border: white;
+    cursor: pointer;
+    color: #0E2F4B;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.styleForBlock2 button {
+    margin-top: 390px;
+    margin-left: 150px;
+}
+
+.styleForBlock3 {
+    background-color: #f8f8f8;
+    height: 880px;
+    display: flex;
+}
+
+.styleForYellowBlock {
+    width: 1170px;
+    height: 220px;
+    border-radius: 10px;
+    background: #FDC13D;
+    margin-top: 100px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.styleForYellowBlock h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.styleForYellowBlock p {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.styleForYellowBlockExtraText p {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    position: absolute;
+    left: 120px;
+    margin-top: 160px;
+    cursor: pointer;
+}
+
+.FinanseOnYellowBlock {
+    display: flex;
+}
+
+.FinanseOnYellowBlock h2 {
+    position: absolute;
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 440px;
+    display: flex;
+    left: 120px;
+}
+
+.additionalPosts1 h4 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 10%;
+    display: flex;
+    margin-top: 580px;
+    left: 150px;
+    position: absolute;
+}
+
+.additionalPosts1 p {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    margin-top: 655px;
+    left: 150px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.additionalPosts2 h4 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 10%;
+    display: flex;
+    margin-top: 580px;
+    left: 450px;
+    position: absolute;
+}
+
+.additionalPosts2 p {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    margin-top: 655px;
+    left: 450px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.additionalPosts3 h4 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 10%;
+    display: flex;
+    margin-top: 580px;
+    left: 750px;
+    position: absolute;
+}
+
+.additionalPosts3 p {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    margin-top: 625px;
+    left: 750px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.styleForBlock4 {
+    background: #0E2F4B;
+    height: 635px;
+    display: flex;
+}
+
+.styleForBlock4 h2 {
+    color: #F8F8F8;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.styleForBlock4 p {
+    color: #99A2AA;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 120px;
+    width: 75%;
+}
+
+.settingsForInputOnBlock4 {
+    outline: 0;
+    padding: 0px 230px 0px 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    width: 232.881px;
+    border: white;
+    position: absolute;
+    width: 232.881px;
+    height: 78px;
+    margin-top: 400px;
+    margin-left: 120px;
+}
+
+.settingsForButtonOnBlock4 {
+    border-radius: 10px;
+    background: #FDC13D;
+    width: 248.98px;
+    height: 80px;
+    color: #0E2F4B;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    border: white;
+    margin-top: 400px;
+    margin-left: 625px;
+    cursor: pointer;
+}
+
+.styleForBlock5 {
+    background-color: #f8f8f8;
+    height: 1304px;
+    display: flex;
+}
