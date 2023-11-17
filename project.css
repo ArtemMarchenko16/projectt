@@ -590,7 +590,7 @@ main {
     border-radius: 10px;
     background: #FDC13D;
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 145px;
     display: flex;
 }
 
@@ -603,7 +603,7 @@ main {
     line-height: 32px;
     width: 65%;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 45px;
     position: absolute;
 }
 
@@ -615,7 +615,7 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-top: 120px;
-    margin-left: 70px;
+    margin-left: 45px;
 }
 
 .styleForYellowBlockExtraText p {
@@ -626,7 +626,7 @@ main {
     font-weight: 700;
     line-height: 24px;
     position: absolute;
-    left: 120px;
+    left: 145px;
     margin-top: 160px;
     cursor: pointer;
 }
@@ -645,7 +645,7 @@ main {
     line-height: 60px;
     margin-top: 440px;
     display: flex;
-    left: 120px;
+    left: 140px;
 }
 
 .additionalPosts1 h4 {
@@ -812,7 +812,7 @@ main {
     font-weight: 700;
     line-height: 60px;
     display: flex;
-    margin-left: 130px;
+    margin-left: 120px;
     margin-top: 150px;
 }
 
@@ -823,8 +823,9 @@ main {
     display: flex;
     position: absolute;
     margin-top: 240px;
-    left: 130px;
+    left: 120px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .settingsForIcon1 {
@@ -855,5 +856,588 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    display: flex;
+    width: 60%;
+    right: 78px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.zone1 h1 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    top: 75px;
+    left: 150px;
+    position: absolute;
+}
+
+.zone1 h3 {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 140px;
+    margin-left: 30px;
+}
+
+.zone2 {
+    background-color: white;
+    width: 570px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-top: 240px;
+    left: 710px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.settingsForIcon2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.zone2 p {
+    color: #99A2AA;
+    font-family: "Open", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.zone2 h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    bottom: 105px;
+    display: flex;
+    width: 60%;
+    right: 75px;
+    position: absolute;
+}
+
+.zone2 h3 {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 140px;
+    margin-left: 30px;
+    width: 90%;
+}
+
+.zone3 {
+    background-color: white;
+    width: 570px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-top: 510px;
+    left: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.settingsForIcon3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.zone3 p {
+    color: #99A2AA;
+    font-family: "Open", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.zone3 h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    bottom: 125px;
+    display: flex;
     width: 70%;
+    right: 20px;
+    position: absolute;
+}
+
+.zone3 h3 {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 140px;
+    margin-left: 30px;
+    width: 90%;
+}
+
+.zone4 {
+    background-color: white;
+    width: 570px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-top: 510px;
+    left: 710px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.settingsForIcon4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.zone4 p {
+    color: #99A2AA;
+    font-family: "Open", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.zone4 h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    bottom: 105px;
+    display: flex;
+    width: 70%;
+    right: 20px;
+    position: absolute;
+}
+
+.zone4 h3 {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 140px;
+    margin-left: 30px;
+    width: 90%;
+}
+
+.styleForBlock5 h5 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 870px;
+    position: absolute;
+}
+
+.settingsForButtonBlock1On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1000px;
+    display: flex;
+    right: 1050px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 120px;
+}
+
+.settingsForButtonBlock2On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1110px;
+    display: flex;
+    right: 1050px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 120px;
+}
+
+.settingsForButtonBlock3On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1000px;
+    display: flex;
+    right: 650px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 510px;
+}
+
+.settingsForButtonBlock4On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1110px;
+    display: flex;
+    right: 650px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 510px;
+}
+
+.settingsForButtonBlock5On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1000px;
+    display: flex;
+    right: 250px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+}
+
+.settingsForButtonBlock6On8 {
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    height: 92px;
+    width: 370px;
+    margin-top: 1110px;
+    display: flex;
+    right: 250px;
+    border-radius: 10px;
+    background: #FFF;
+    border: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+}
+
+.styleForBlock6 {
+    background: #FEC524;
+    height: 500px;
+    display: flex;
+}
+
+.styleForBlock6 a {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+.styleForBlock6 p {
+    color: #0E2F4B;
+    font-family: "Open", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    left: 140px;
+}
+
+.styleForBlock6 h2 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    position: absolute;
+    display: flex;
+    margin-top: 260px;
+    left: 140px;
+}
+
+.imageForPlayMarket {
+    margin-top: 310px;
+    position: absolute;
+    display: flex;
+    margin-left: 140px;
+}
+
+.imageForPlayMarket2 {
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.imageForAppStore2 {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imageForAppStore {
+    margin-top: 310px;
+    position: absolute;
+    display: flex;
+    margin-left: 330px;
+}
+
+.styleForBlock6 h5 {
+    color: #0E2F4B;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 140px;
+}
+
+.bi-telegram {
+    width: 37px;
+    height: 38px;
+    color: #0089b6;
+    background-color: white;
+    border-radius: 60px;
+    position: absolute;
+    display: flex;
+    margin-top: 420px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.imageForViber2 {
+    color: #8a1f7d;
+    width: 37px;
+    height: 38px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 420px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.bi-facebook {
+    color: #25336b;
+    width: 37px;
+    height: 38px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 420px;
+    left: 260px;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #1D2023;
+    height: 789px;
+    display: flex;
+}
+
+.positionForParagraph1 h2 {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.positionForParagraph1 p {
+    display: flex;
+    flex-direction: column;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.positionForParagraph2 h2 {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.positionForParagraph2 p {
+    display: flex;
+    flex-direction: column;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 100px;
+    cursor: pointer;
+    width: 60%;
+}
+
+.positionForParagraph3 h2 {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 100px;
+}
+
+.positionForParagraph3 p {
+    display: flex;
+    flex-direction: column;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.positionForParagraph4 h2 {
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.positionForParagraph4 p {
+    display: flex;
+    flex-direction: column;
+    color: #99A2AA;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.classForHr hr {
+    width: 1290px;
+    display: flex;
+    position: absolute;
+    left: 120px;
+    margin-top: 730px;
 }
